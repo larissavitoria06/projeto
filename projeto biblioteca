@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    * {
+    margin: 0px;
+    padding: 0px;
+}
+
+.containerheader {
+    width: 100%;
+    background-color: mediumpurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+    & .containerLogo {
+        width: 40%;
+    }
+
+    & .containerLogo img {
+        width: 150px;
+    }
+
+    & .containerMenu {
+        width: 60%;  
+    }
+
+    & .containerMenu nav {
+        padding: 15px;
+    }
+
+    & .containerMenu nav a {
+        color: white;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 15px;
+        text-decoration: none;
+    }
+
+    & .containerMenu nav a:hover{
+        color: white;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 10px;
+        background: rgb(240, 133, 240);
+        border-radius: 16px;
+    }
+
+}
+
+main{
+    width: 100%;
+
+    & .containerBanner{
+        width: 100;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+    }
+
+    & .containerBanner img {
+        width: 150%;
+        border-radius: 16px;
+        box-shadow: 8px 8px 5px #eee7ec;
+    }
+
+    & .containerBanner img:hover{
+        width: 80%;
+        transition: 2.0s;
+        border-radius: 16px;
+        box-shadow: 8px 8px 5px rgb(176, 132, 194);
+    }
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    width: 100%;
+    background: rgb(243, 152, 255);
+    color: aliceblues;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div1{
+
+    font-size: 22px;
+    font-family:'courier New', cairier, monospace;
+
+}
+
+.container_formulario{
+    width: 100%;
+    height: 350px;
+    border-color: blueviolet;
+    border: 30px;
+    margin: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 15px;
+
+}
+
+input{
+    width: 250px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 20px;
+    border: nome;
+
+}
+
+#botao{
+    width: 100px;
+    background: rbag;
+    color: white;
+
+}
+main{
+    width: 100%;
+
+    & .containerBanner{
+        width: 100;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+    }
+
+    & .containerBanner img {
+        width: 150%;
+        border-radius: 16px;
+        box-shadow: 8px 8px 5px #eee7ec;
+    }
+
+    & .containerBanner img:hover{
+        width: 80%;
+        transition: 2.0s;
+        border-radius: 16px;
+        box-shadow: 8px 8px 5px rgb(176, 132, 194);
+    }
+
+    body {
+    background-image: url('c:\Users\Desenvolvimento\Downloads\bibli.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    margin: 0; 
+
+    }
+
+}
+body {
+    background-image: url('c:\Users\Desenvolvimento\Downloads\bibli.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    margin: 0; 
+}
+   
+</style>
+    <header> 
+        
+        <div class="containerheader">
+            <div class="containerLogo"> 
+            <img src="logo.jpg">
+            </div>
+            <div class="containerMenu">
+<br>
+<header>
+     <!-- comando para comentar e descomentar linha(CTRL+;)-->
+
+    <!-- TAG para formulário
+        action => para onde os dados do formulario irão
+        method => maneira que será enviado -->
+    <br>
+     <!-- Div's são containers -->
+  </div>
+   <div class="containerMenu">
+   <nav>
+  
+                <a href="index.html">Inicio</a>
+                <a href="contato.html">Cadastro</a>
+                <a href="quemsomos.html">Sobre</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="containerBanner">
+        
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<br>
+<header>
+    <br>
+     <!-- Div's são containers -->
+  </div>
+   <div class="containerMenu">
+   <nav>
+  
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <center><p><h4><font><sub></sub><b><font size="10"face="NEGRITO"></b></p></sub></font></center>
+</head>
+<div class="divimagem">
+    <center><img src="c:\Users\Desenvolvimento\Downloads\bibli.png" widht="" height="1300"</center>
+<body>
+    <br>
+    
+</body>
+</html>
+</body>
+</html>
+</style>
+<body>
+    
+     </div>
+    </div>
+    </header>
+    <main>
+       <br>
+ <header> 
+       
+<br>
+             <header>
+ <div class="divimagem">
+        <center><img src="c:\Users\Desenvolvimento\Downloads\bibli.png" widht="198" height="198"</center>
+  <!-- Div's são containers -->
+        <div class="containerheader">
+            <div class="containerLogo"> 
+            <img src="logo.jpg">
+            </div>
+            <div class="containerMenu">
+        </div>
+
+                    <nav>
+                       <b><center><a href="texto">  Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Rerum quibusdam soluta voluptas autem
+                            illum
+                            ratione sunt ducimus vitae illo fugit!<br> Inventore sed distinctio et veritatis pariatur quos ad
+                            aspernatur voluptatum.</a>
+                    <br>
+                    </nav>
+
+</header> 
+
+     <br>
+     <div date-tetid="colorUnderlay"class="LWbAAV kVLAT"></div>
+<header>
+
