@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>https://startbootstrap.com/previews/heroic-features#google_vignette</title>
+</head>
+<body>
+<header>
+    <!-- Div's são containers -->
+    <div class="containerheader">
+        <div class="containerLogo">
+            <img src="c:\Users\Desenvolvimento\Pictures\Screenshots\Captura de tela 2024-10-30 152647.png">
+        </div>
+        <div class="containerMenu">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="contato.html">About</a>
+                <a href="quemsomos.html">Contact</a>
+            </nav>
+        </div>
+    </div>
+</header>
+    <header>
+                <center><div><h1>A warm welcome!</h1></div></center>
+                <br>
+                <center><h1><font size="5">Bootstrap utility classes are
+                     used to create this jumbotron since the old component has been removed from the framework. Why create custom CSS when you can use utilities?</font></center></h1>
+   </header>
+   <header>
+    <center><button onclick="clicou()">Call to action</button></center>
+<br>
+   </header>
+</body>
+</html>
