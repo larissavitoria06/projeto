@@ -1,0 +1,269 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.containerheader {
+    width: 100%;
+    height: 65px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+    & .containerLogo {
+        width: 5%;
+    }
+
+    & .containerLogo img {
+        width: 150px;
+    }
+
+    & .containerMenu {
+        width: 60%;  
+    }
+
+    & .containerMenu nav {
+        padding: 15px;
+    }
+
+    & .containerMenu nav a {
+        color: white;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 15px;
+        text-decoration: none;
+    }
+
+    & .containerMenu nav a:hover{
+        color: white;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 10px;
+        background:#0373fc;
+        border-radius: 16px;
+    }
+
+}
+
+main{
+    width: 100%;
+
+    & .containerBanner{
+        width: 100;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+    }
+
+    & .containerBanner img {
+        width: 150%;
+        border-radius: 16px;
+        box-shadow: 8px 8px 5px #eee7ec;
+    }
+
+    & .containerBanner img:hover{
+        width: 80%;
+        transition: 2.0s;
+        border-radius: 16px;
+        box-shadow: 8px 8px 5px rgb(176, 132, 194);
+    }
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(245, 245, 245);
+}
+.container{
+    width: 100%;
+    background: rgb(243, 152, 255);
+    color: aliceblues;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div1{
+
+    font-size: 22px;
+    font-family:'courier New', cairier, monospace;
+
+}
+
+.container_formulario{
+    width: 100%;
+    height: 350px;
+    border-color: blueviolet;
+    border: 30px;
+    margin: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 15px;
+
+}
+
+input{
+    width: 250px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 20px;
+    border: nome;
+
+}
+
+.button{
+  
+    background-color: #0373fc;
+
+padding: 25px 35px;
+border-radius: 8px;
+border: nome;
+font-size: 16px;
+color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 25px;
+        background:#0373fc;
+        border-radius: 16px;
+}
+
+main{
+    width: 100%;
+
+    & .containerBanner{
+        width: 100;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+    }
+
+    & .containerBanner img {
+        width: 150%;
+        border-radius: 16px;
+        box-shadow: 8px 8px 5px #eee7ec;
+    }
+
+    & .containerBanner img:hover{
+        width: 80%;
+        transition: 2.0s;
+        border-radius: 16px;
+        box-shadow: 8px 8px 5px rgb(176, 132, 194);
+    }
+
+    .imgsrc02{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+    }
+
+    .imgsrc02{
+        background: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 8px;
+        text-align: center;
+        transition: trensform (0.05);
+        color: white;
+
+    }
+
+    .imgsrc02{
+        transform: scale(1.05);
+        color: white;
+    }
+    .imgsrc03{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+    }
+
+    .imgsrc03{
+        background: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 8px;
+        text-align: center;
+        transition: trensform (0.05);
+        color: white;
+
+    }
+
+    .imgsrc03{
+        transform: scale(1.05);
+        color: white;
+    }
+    .imgsrc04{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+    }
+
+    .imgsrc04{
+        background: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 8px;
+        text-align: center;
+        transition: trensform (0.05);
+        color: white;
+
+    }
+
+    .imgsrc04{
+        transform: scale(1.05);
+        color: white;
+    }
+
+    .imgsrc05{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+    }
+
+    .imgsrc05{
+        background: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 8px;
+        text-align: center;
+        transition: trensform (0.05);
+        color: white;
+
+    }
+
+    .imgsrc05{
+        transform: scale(1.05);
+        color: white;
+    }
+}
+   
+.galeria {
+    display: flex; /* Usa o flexbox para colocar as imagens lado a lado */
+    gap: 260px; /* Define o espaço entre as imagens */
+    justify-content: center; /* Alinha as imagens no centro, se necessário */
+  }
+  
+  .galeria img {
+    width: 98px; /* Ajusta o tamanho das imagens conforme necessário */
+    height: auto; /* Mantém a proporção original da imagem */
+  }
+  
+
+
